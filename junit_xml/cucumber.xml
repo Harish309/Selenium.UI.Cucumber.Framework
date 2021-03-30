@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="42.886052">
+    <testcase classname="Hooks in Cucumber" name="Add new Customer" time="0.207056">
+        <system-out>
+            <![CDATA[Given User is on Add Customer Page..........................................passed
+When User fills the Customer Details........................................passed
+Then New Customer is Added..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hooks in Cucumber" name="Edit Customer" time="0.001214">
+        <system-out>
+            <![CDATA[Given User is on Edit Customer Page.........................................passed
+When User Edits Customer Details............................................passed
+Then Customer details are Updated...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hooks in Cucumber" name="Delete Customer" time="0.000902">
+        <system-out>
+            <![CDATA[Given User is on Delete Customer Page.......................................passed
+When User deletes Customer..................................................passed
+Then Customer is Deleted....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRM Application Login Test" name="Free CRM Login Test" time="24.512167">
+        <system-out>
+            <![CDATA[Given User is already on Login Page.........................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters "groupautomation" and "Test@12345" and click on login button.passed
+Then User is on Home Page...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRM Application Login Test" name="Free CRM Login Test 2" time="18.156593">
+        <system-out>
+            <![CDATA[Given User is already on Login Page.........................................passed
+When Title of Login Page is Free CRM........................................passed
+Then User enters "groupautomation" and "Test@12345" and click on login button.passed
+Then User is on Home Page...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Tags in Cucumber" name="Verify Login" time="0.004496">
+        <system-out>
+            <![CDATA[Given This is a Valid Login Test............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Tags in Cucumber" name="Verify Logout" time="0.002009">
+        <system-out>
+            <![CDATA[Given This is a Valid Logout Test...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Tags in Cucumber" name="Verify Search" time="0.000858">
+        <system-out>
+            <![CDATA[Given This is a Search Test.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Tags in Cucumber" name="Verify Advanced Search" time="0.000757">
+        <system-out>
+            <![CDATA[Given This is Advanced Search Test..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
